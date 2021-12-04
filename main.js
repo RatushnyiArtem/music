@@ -1,0 +1,30 @@
+$(document).ready(function(){
+    $(".burger").click(function(event){
+        $(".burger, .ideas").toggleClass("active");
+    });
+ });
+ $(document).ready(function(){
+    $(".knopka").click(function(event){
+        $(".knopka").toggleClass("active");
+    });
+ });
+ $(document).ready(function(){
+    $(".btnh").click(function(event){
+        $(".btnh").toggleClass("active");
+    });
+ });
+ $(document).ready(function(){
+    $(".btnh2").click(function(event){
+        $(".btnh2").toggleClass("active");
+    });
+ });
+ $(document).ready(function(){
+    $(".btnh3").click(function(event){
+        $(".btnh3").toggleClass("active");
+    });
+ });
+ $(document).ready(function(){
+    $(".burger1").click(function(event){
+        $(".burger1, .menu").toggleClass("active");
+    });
+ });
